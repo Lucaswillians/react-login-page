@@ -1,0 +1,27 @@
+.input {
+  margin: 24px 0;
+}
+
+.input label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #20f80c;
+}
+
+.input input {
+  background-color: #20f80c;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0);
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+}
+
+.input input::placeholder {
+  color: #000000;
+}
