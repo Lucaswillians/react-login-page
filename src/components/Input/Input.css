@@ -3,25 +3,32 @@
 }
 
 .input label {
-  display: block;
   margin-bottom: 8px;
   font-size: 24px;
   font-weight: bold;
-  color: #20f80c;
+  color: #00FFFF;
 }
 
 .input input {
-  background-color: #20f80c;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0);
-  width: 100%;
+  background-color: #00FFFF;
+  width: 90%;
+  display: block;
   border-radius: 5px;
   border: none;
   font-size: 24px;
   padding: 10px;
-  box-sizing: border-box;
+  margin-top: 5px;
   color: rgb(0, 0, 0);
 }
 
 .input input::placeholder {
   color: #000000;
 }
+
+.input button {
+  background-color: #000000;
+  border: none;
+  color: #00FFFF;
+  width: 0%;
+}
+

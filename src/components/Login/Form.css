@@ -5,7 +5,7 @@
 }
 
 .form h1 {
-  color: #20f80c;
+  color: #00FFFF;
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -15,9 +15,21 @@
 .form form {
   max-width: 80%;
   background-color: #000000;
-  border: 3px solid #20f80c;
+  border: 3px solid #00FFFF;
   border-radius: 20px;
-  padding: 36px 64px;
-  margin-bottom: 100px;
+  padding: 36px 40px 0px;
+  margin-bottom: 80px;
   margin-top: 100px;
+}
+
+.form button {
+  width: 100%;
+  cursor: pointer;
+}
+
+.register h3 {
+  color: white;
+  font-size: 17px;
+  margin-top: -20px;
+  cursor: pointer;
 }
